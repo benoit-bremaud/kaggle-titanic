@@ -17,7 +17,7 @@ For global decisions applying to all Kaggle projects, see the [global DECISIONS.
 **Options considered:**
 
 | Option | Pros | Cons |
-|---|---|---|
+| --- | --- | --- |
 | Option A | ... | ... |
 | Option B | ... | ... |
 
@@ -27,4 +27,17 @@ For global decisions applying to all Kaggle projects, see the [global DECISIONS.
 
 -->
 
-## Decisions will be added here as the project progresses.
+## Global rules applied to this project
+
+All best practices from [global DECISIONS.md](../DECISIONS.md) apply here, specifically:
+
+- **ADR-016** — CI with ruff only (no SonarQube)
+- **ADR-017** — pytest on `src/` only
+- **ADR-018** — KISS and YAGNI, not SOLID
+- **ADR-019** — Reproducibility, DRY, no data leakage
+- **ADR-020** — Pipeline-centric ML approach
+- **ADR-021** — Stratified K-Fold, local CV > public leaderboard
+- **ADR-022** — Notebook hygiene (top-to-bottom, Restart & Run All)
+- **ADR-023** — Raw data immutable and gitignored
+
+No Titanic-specific decisions yet. They will be added as the project progresses.
