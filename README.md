@@ -35,7 +35,7 @@ make notebook
 
 ## Project Structure
 
-```
+```text
 .
 ├── data/
 │   ├── raw/              # Original competition data (gitignored)
@@ -67,7 +67,7 @@ make notebook
 
 | # | Model | CV Score | LB Score | Features |
 | --- | --- | --- | --- | --- |
-| 1 | Random Forest (100 trees) | ~0.80 | TBD | Pclass, Sex, Age, SibSp, Parch, Fare, Embarked, HasCabin, FamilySize, IsAlone, Title |
+| 1 | Random Forest (100 trees) | ~0.80 | 0.74880 | Pclass, Sex, Age, SibSp, Parch, Fare, Embarked, HasCabin, FamilySize, IsAlone, Title |
 
 ## Available Commands
 
