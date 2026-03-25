@@ -2,6 +2,6 @@
 
 Track all Kaggle submissions for this competition.
 
-| # | Date | Score | Model | Features | Notes |
-|---|------|-------|-------|----------|-------|
-| 1 | YYYY-MM-DD | 0.000 | Baseline | Raw features | First submission |
+| # | Date | CV Score | LB Score | Model | Features | File | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 2026-03-25 | ~0.80 | TBD | RandomForest (100 trees) | Pclass, Sex, Age, SibSp, Parch, Fare, Embarked, HasCabin, FamilySize, IsAlone, Title | `submission_001_rf_baseline.csv` | Baseline — no tuning, default hyperparameters |
