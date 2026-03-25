@@ -45,4 +45,4 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: pytest tests/ -v --tb=short || echo "No tests found yet — skipping"
+        run: pytest tests/ -v --tb=short
