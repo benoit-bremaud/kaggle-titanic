@@ -1,6 +1,9 @@
 # Virtual environment
 .venv/
 
+# Claude Code
+.claude/
+
 # Data (too large for Git)
 data/raw/*
 data/processed/*
